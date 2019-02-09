@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Richard Shu</title>
-
+		
 		<!-- Metadata
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<meta charset="UTF-8">
@@ -35,32 +36,18 @@
 	<body>
 		<div id="header"></div>
 		<section class="container-fluid">
-			<h2 class="text-center">Student leader, writer, aspiring entrepreneur</h2>
-			<img id="profile-pic" class="img-responsive animated fadeIn" src="images/profile-pic.png">
+			<h2 class="text-center">Email:</h2>
+			<h2 class="text-center email">richardjshu@gmail.com</h2>
 			<div class="divider"><hr></div>
 
-			<!-- About Me -->
-			<h2 class="text-center">About Me</h2>
-			<h4 class="center">
-				<p>
-					Hi, I'm Richard! I'm a student majoring in Computer Science at New York University. 
-					Before transferring to NYU, I was a student at Cal State LA for three years. In my 
-					free time, I love to program, play chess, and learn Chinese. If you want to connect 
-					with me, hit me up on 
-					<a target="_blank" href="https://www.linkedin.com/in/richardjshu/">LinkedIn</a>!
-				</p>
-			</h4>
-			<div class="divider"><hr></div>
-
-			<!-- Hobbies -->
-			<h2 class="text-center">Hobbies</h2>
-			<h4 class="text-center">
-				<a target="_blank" href="http://www.uschess.org/msa/MbrDtlMain.php?14612952">Chess</a><br/>
-				<a target="_blank" href="http://magnificentsevens.org/">Boy Scouts</a><br/>
-				<a target="_blank" href="https://asicalstatela.org/person/richard-shu">Student gov.</a><br/>
-				<a target="_blank" href="https://www.quora.com/profile/Richard-Shu-7">Writing on Quora</a><br/>
-				<a target="_blank" href="https://www.youtube.com/channel/UCllKBMrRDPTI-whTHyQWPRg?view_as=subscriber">Creating YouTube videos</a><br/>
-			</h4>
+			<!-- Contact form -->
+			<h2 class="text-center">Contact Form</h2>
+			<form action="contactform.php" method="post" class="center">
+				<input type="name" name="name" placeholder="Name"><br/><br/>
+				<input type="email" name="email" placeholder="Email"><br/><br/>
+				<textarea name="message" placeholder="Message"></textarea>
+				<button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
+			</form>
 		</section>
 		<div id="footer"></div>
 
