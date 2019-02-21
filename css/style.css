@@ -76,3 +76,9 @@ footer {
 	color: black;
 	text-decoration: none;
 }
+
+.project-card a .card-body .card-text {
+	max-width: 50em;
+	display: block;
+	margin: auto;
+}
