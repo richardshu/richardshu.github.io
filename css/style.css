@@ -30,11 +30,6 @@ body {
 	color: #000 !important;
 }
 
-#content {
-	/*display: flex;
-	justify-content: center;*/
-}
-
 footer {
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -81,4 +76,26 @@ footer {
 	max-width: 50em;
 	display: block;
 	margin: auto;
+}
+
+/* cv page */
+
+.cv-description-box ul {
+	list-style-position: inside;
+}
+
+#download_resume_button {
+	background-color:  #686868;
+	border-color:  #686868;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#download_resume_button:hover {
+	border-color: #000000;
+	background-color: #000000;
+}
+
+li a:hover {
+	text-decoration: none;
 }
