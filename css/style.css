@@ -1,7 +1,7 @@
 /* all pages */
 
 body {
-	background-color: #ffeea8;
+	background-color: #e1f0e5;
 	font-family: Vollkorn;
 }
 
@@ -13,52 +13,69 @@ body {
 	border: none;
 }
 
+#profile_pic {
+	width: 100%;
+	height: auto;
+}
+
 /* header & content & footer */
 
 .navbar {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	position: sticky;
+	background-color: #fff;
 	display: flex;
 	justify-content: center;
-	margin-top: 1em;
-	margin-bottom: 1em;
+}
+
+#logo:hover {
+	/* change color of PNG image via CSS */
+	filter: invert(89%) sepia(78%) saturate(5061%) hue-rotate(325deg) brightness(87%) contrast(89%);
 }
 
 .navbar-brand {
 	color: #686868 !important;
+	transition: color 0.5s;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 .navbar-brand:hover {
-	color: #000 !important;
+	color: #d4af37 !important;
+	transition: color 0.5s;
 }
 
 .active {
-	color: black !important;
+	color: #d4af37 !important;
 }
 
 footer {
 	margin-top: 1em;
-	margin-bottom: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background-color: #fff;
 }
 
 .icon {
 	color: #686868;
-	margin-left: 0.3em;
-	margin-right: 0.3em;
+	transition: color 0.5s;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	font-size: 1.33em;
 }
 
 .icon:hover {
-	color: #000;
+	color: #d4af37;
+	transition: color 0.5s;
 }
 
 /* about page */
 
 #profile_card {
+	margin-top: 1em;
 	display: flex;
 	justify-content: center;
-}
-
-#profile-pic {
-	max-height: 25em;
-	max-width: auto;
 }
 
 .bio {
@@ -68,7 +85,7 @@ footer {
 /* projects page */
 
 .project-card {
-	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 .project-card a {
@@ -83,6 +100,10 @@ footer {
 }
 
 /* cv page */
+
+.cv-section {
+	margin-top: 1em;
+}
 
 .cv-description-box ul {
 	list-style-position: inside;

@@ -19,29 +19,23 @@
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn">
 		<!-- Styling -->
 		<link rel="stylesheet" href="css/style.css"/>
-
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110810815-1"></script>
-		<script>
-  			window.dataLayer = window.dataLayer || [];
-  			function gtag(){dataLayer.push(arguments);}
-  			gtag('js', new Date());
-  			gtag('config', 'UA-110810815-1');
-		</script>
 	</head>
 	<body>
+		<nav class="navbar navbar-light fixed-top animated fadeInDown">
+			<a class="navbar-brand" href="index.html">
+				<img id="logo" src="images/favicon.png" width="30" height="30">
+			</a>
+			<a class="navbar-brand active" href="index.html">*about</a>
+			<a class="navbar-brand" href="projects.html">projects</a>
+			<a class="navbar-brand" href="cv.html">cv</a>
+		</nav>
+		<img id="profile_pic" class="animated fadeInUp" src="images/profile-pic.jpg">
 		<div class="container">
-			<nav class="navbar navbar-light">
-				<a class="navbar-brand active" href="index.html">about</a>
-				<a class="navbar-brand" href="projects.html">projects</a>
-				<a class="navbar-brand" href="cv.html">cv</a>
-			</nav>
 			<div id="profile_card">
 				<div class="center">
-					<div class="card animated jackInTheBox" style="max-width: 30rem;">
-						<img class="card-img-top" src="images/profile-pic.jpg">
+					<div class="card" style="max-width: 40rem;">
 						<div class="card-body">
-							<h5 class="card-title center">Hey! I'm Richard...</h5>
+							<h2 class="card-title center">Hey! I'm Richard...</h2>
 
 							<p class="card-text">... a solar-powered, tea-fueled extrovert and recent alumnus of New York University with a bachelor's degree in computer science. Originally from Diamond Bar, California, I jumped into college at the tender age of 14 through Cal State LA's Early Entrance Program and transferred to NYU to pursue bigger dreams. I spent my senior fall abroad in Shanghai studying calligraphy and dance to expand my cultural palate and explore the riveting facets of Chinese culture. Afterwards, I wrapped up my last semester in the bustling streets of New York and graduated with honors. Now I'm back in LA enjoying the sunshine and searching for my next aspiration.</p><hr>
 
@@ -54,13 +48,22 @@
 					</div>
 				</div>
 			</div>
-			<footer class="center">
-				<a class="icon" target="_blank" href="https://github.com/richardshu"><i class="fab fa-github-alt"></i></a>
-				<a class="icon" target="_blank" href="https://www.linkedin.com/in/richardjshu/"><i class="fab fa-linkedin"></i></a>
-				<a class="icon" target="_blank" href="https://youtube.com/RichardShuProductions"><i class="fab fa-youtube"></i></a>
-				<a class="icon" target="_blank" href="https://www.quora.com/profile/Richard-Shu-7"><i class="fab fa-quora"></i></a>
-				<a class="icon" target="_blank" href="https://drive.google.com/file/d/1s7i1aCy20uJTehzK-G6W1YaFKTLIcC4U/view?usp=sharing"><i class="fas fa-file"></i></a>
-			</footer>
 		</div>
+		<footer class="center">
+			<a class="icon" target="_blank" href="https://github.com/richardshu"><i class="fab fa-github-alt"></i></a>
+			<a class="icon" target="_blank" href="https://www.linkedin.com/in/richardjshu/"><i class="fab fa-linkedin"></i></a>
+			<a class="icon" target="_blank" href="https://youtube.com/RichardShuProductions"><i class="fab fa-youtube"></i></a>
+			<a class="icon" target="_blank" href="https://www.quora.com/profile/Richard-Shu-7"><i class="fab fa-quora"></i></a>
+			<a class="icon" target="_blank" href="https://drive.google.com/file/d/1s7i1aCy20uJTehzK-G6W1YaFKTLIcC4U/view?usp=sharing"><i class="fas fa-file"></i></a>
+		</footer>
+
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110810815-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'UA-110810815-1');
+		</script>
 	</body>
 </html>
