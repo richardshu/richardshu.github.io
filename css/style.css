@@ -1,7 +1,6 @@
 /* all pages */
 
 body {
-	background-color: #e1f0e5;
 	font-family: Vollkorn;
 }
 
@@ -13,9 +12,8 @@ body {
 	border: none;
 }
 
-#profile_pic {
-	width: 100%;
-	height: auto;
+.bg-color {
+	background-color: #e1f0e5;
 }
 
 /* header & content & footer */
@@ -71,6 +69,11 @@ footer {
 }
 
 /* about page */
+
+#profile_pic {
+	width: 100%;
+	height: auto;
+}
 
 #profile_card {
 	margin-top: 1em;
