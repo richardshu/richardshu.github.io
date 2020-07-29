@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2609,7 +2609,7 @@ input, select, textarea {
 					-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
 					-ms-transition: background-color 0.5s ease, opacity 0.5s ease;
 					transition: background-color 0.5s ease, opacity 0.5s ease;
-					content: '';
+					/*content: '';*/ /* get rid of white X over guest images*/
 					display: block;
 					position: absolute;
 					top: 0;
@@ -2627,7 +2627,7 @@ input, select, textarea {
 					-webkit-transition: opacity 0.5s ease;
 					-ms-transition: opacity 0.5s ease;
 					transition: opacity 0.5s ease;
-					content: '';
+					/*content: '';*/ /* get rid of white X over guest images*/
 					display: block;
 					position: absolute;
 					top: 0;
@@ -2641,6 +2641,20 @@ input, select, textarea {
 					opacity: 0.25;
 					z-index: 2;
 				}
+
+				/* on hover over guest image, reveal episode cover art */
+				.tiles article:hover > .image .cover-art {
+					opacity: 1;
+				}
+				
+				.cover-art {
+					position: absolute;
+					top: 0;
+					left: 0;
+					opacity: 0;
+					transition: opacity 0.5s ease-out;
+				}
+				/* end of my code */
 
 			.tiles article > a {
 				display: -moz-flex;
@@ -2729,6 +2743,7 @@ input, select, textarea {
 				background-color: #8499e7;
 			}
 
+			/* on hover over guest image, control image size/scaling */
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
@@ -2736,11 +2751,13 @@ input, select, textarea {
 				transform: scale(1.1);
 			}
 
+				/* on hover over guest image, control overlay background color & opacity */
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					/*background-color: #333333;*/
+					/*opacity: 0.15;*/
 				}
 
+				/* on hover release, remove overlay and restore original image */
 				body:not(.is-touch) .tiles article:hover > .image:after {
 					opacity: 0;
 				}
