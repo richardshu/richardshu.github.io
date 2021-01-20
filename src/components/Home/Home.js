@@ -24,9 +24,55 @@ function Home() {
             school year and helped organize the 2019 and 2020 cycles of HackNYU.
           </p>
           <p>
-            I have a diverse repertoire of interests that include playing chess,
-            writing about my experiences, hosting a podcast, and making YouTube
-            videos. I also love absorbing nature through hiking and photography.
+            I have a diverse repertoire of interests that include playing{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.uschess.org/msa/MbrDtlMain.php?14612952"
+            >
+              chess
+            </a>
+            , writing on{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.quora.com/profile/Richard-Shu-7"
+            >
+              Quora
+            </a>{" "}
+            and{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@richardshu1"
+            >
+              Medium
+            </a>
+            , hosting a{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://itsoverpod.com/"
+            >
+              podcast
+            </a>
+            , and making{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://youtube.com/RichardShuProductions"
+            >
+              YouTube
+            </a>{" "}
+            videos. I also love absorbing nature through hiking and{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/richard.shu.productions/"
+            >
+              photography
+            </a>
+            .
           </p>
           <p>
             If you ever want to reach me, my inbox is always open at richardjshu
