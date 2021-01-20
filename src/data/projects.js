@@ -75,7 +75,7 @@ export const ProjectsData = [
     name: "Red-Black Tree",
     description:
       "An app that allows you to visualize insertion and deletion of nodes in a red-black tree.",
-    github_url: "",
+    github_url: "https://github.com/richardshu/RedBlackTree",
     cName: "card-full-width",
   },
   {
@@ -83,7 +83,7 @@ export const ProjectsData = [
     name: "Monster Hunter",
     description:
       "A Mario-themed text-based RPG game where you collect fireballs to defeat Bowser while avoiding hidden spikes and gumbas.",
-    github_url: "",
+    github_url: "https://github.com/richardshu/MonsterHunter",
     cName: "card-full-width",
   },
 ];
