@@ -1,0 +1,9 @@
+{
+  "short_name": "Richard Shu – Personal Website",
+  "name": "Richard Shu – Personal Website",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

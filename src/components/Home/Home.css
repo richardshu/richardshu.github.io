@@ -1,0 +1,27 @@
+.Home .profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Home .pfp-container {
+  float: left;
+  padding: 1rem;
+  max-width: 30rem;
+}
+
+.Home .pfp-container img {
+  width: 100%;
+}
+
+.Home .bio {
+  max-width: 38rem;
+  padding: 1rem;
+}
+
+.Home .greeting {
+  font-size: 2.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
