@@ -1,7 +1,7 @@
 export const AwardsData = [
-  "USCF Chess Expert",
+  "USCF Expert",
   "Eagle Scout",
-  'TEDxNYU "The Pitch" Speaker',
+  'TEDxNYU \'20 "The Pitch" Speaker',
   "NYU 2020 Computer Science & Engineering Leadership Award",
   "HackNYU '20 Judge",
   "1st, NYU SuperHacks '18",

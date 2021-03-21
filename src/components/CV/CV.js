@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import { EducationData } from "../../data/education.js";
 import { ExperienceData } from "../../data/experience.js";
 import { AwardsData } from "../../data/awards.js";
 import "./CV.css";
@@ -8,10 +9,14 @@ function CV() {
     <Container className="CV">
       <h1>Education</h1>
       <ul>
-        <li>
-          New York University – B.S. Computer Science, <em>magna cum laude</em>
-        </li>
-        <li>New York University Shanghai – Senior Fall Abroad</li>
+        {EducationData.map((education, key) => {
+          return (
+            <li key={key}>
+              {education.school} – {education.description1}
+              <em>{education.description2}</em>
+            </li>
+          );
+        })}
       </ul>
 
       <h1>Experience</h1>
@@ -19,7 +24,7 @@ function CV() {
         {ExperienceData.map((experience, key) => {
           return (
             <li key={key}>
-              {experience.company} – <em>{experience.title}</em>
+              {experience.company} – {experience.title}
             </li>
           );
         })}

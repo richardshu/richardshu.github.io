@@ -1,5 +1,9 @@
 export const ExperienceData = [
   {
+    company: "Roblox",
+    title: "Software Engineer",
+  },
+  {
     company: "JPMorgan Chase & Co.",
     title: "Software Engineer Intern",
   },
@@ -20,7 +24,7 @@ export const ExperienceData = [
     title: "Software Engineer",
   },
   {
-    company: "Cal State LA Student Gov",
+    company: "Cal State LA Student Government",
     title:
       "College of Engineering, Computer Science, and Technology Representative",
   },
