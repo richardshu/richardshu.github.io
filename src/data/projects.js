@@ -1,5 +1,21 @@
 export const ProjectsData = [
   {
+    id: "pathfinder-prep.png",
+    name: "Pathfinder Prep",
+    description:
+      "A website for a tutoring and college consulting organization I co-founded.",
+    github_url: "https://pathfinderpreparation.com/",
+    cName: "card-half-width",
+  },
+  {
+    id: "itsoverpod.png",
+    name: "It's Over Podcast",
+    description:
+      "A website for a podcast I co-host where we bring on interesting guests to share their stories and grand projects with the world.",
+    github_url: "https://itsoverpod.com/",
+    cName: "card-half-width",
+  },
+  {
     id: "slang.png",
     name: "Slang",
     description:
