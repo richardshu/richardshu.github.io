@@ -1,5 +1,13 @@
 export const ProjectsData = [
   {
+    id: "edisolutions.png",
+    name: "EDI Solutions",
+    description:
+      "A website for a company that specializes in electronic data interchange.",
+    github_url: "https://edisolutions.com/",
+    cName: "card-full-width",
+  },
+  {
     id: "pathfinder-prep.png",
     name: "Pathfinder Prep",
     description:
@@ -59,7 +67,7 @@ export const ProjectsData = [
     id: "pomodoro-for-a-better-world.png",
     name: "Pomodoro for a Better World",
     description:
-      "A mobile app that promotes productivity by allowing you to donate to a charity of your choice every time you complete a pomodoro cycle.",
+      "A mobile app that encourages productivity by allowing you to donate to a charity of your choice every time you complete a pomodoro cycle.",
     github_url: "https://devpost.com/software/pomodoro-for-a-better-world",
     cName: "card-half-width",
   },
@@ -82,7 +90,8 @@ export const ProjectsData = [
   {
     id: "daily-doctor.jpg",
     name: "Daily Doctor",
-    description: "An Alexa skill that logs your health on a daily basis.",
+    description:
+      "An Alexa skill that logs your health on a daily basis and sends this data to doctors.",
     github_url: "https://devpost.com/software/daily-doctor",
     cName: "card-half-width",
   },

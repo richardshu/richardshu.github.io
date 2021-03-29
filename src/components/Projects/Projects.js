@@ -11,8 +11,9 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
             href={project.github_url}
+            key={key}
           >
-            <Card key={key} className={project.cName}>
+            <Card className={project.cName}>
               <Card.Img
                 variant="top"
                 src={require(`../../images/${project.id}`).default}
