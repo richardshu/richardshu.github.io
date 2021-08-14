@@ -13,9 +13,9 @@ function Home() {
           <h1 className="greeting">Hi, I'm Richard.</h1>
 
           <p>
-            I'm a software engineer at Roblox in the Bay Area. Previously, I
-            wrote code at JPMorgan, taught Data Structures and Algorithms at
-            NYU, and helped organize the 2019 and 2020 cycles of HackNYU.
+            I'm a software engineer at Roblox based in LA. Previously, I wrote
+            code at JPMorgan, taught Data Structures and Algorithms at NYU, and
+            helped organize the 2019 and 2020 cycles of HackNYU.
           </p>
 
           <p>
