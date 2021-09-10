@@ -32,7 +32,7 @@ function Footer() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://youtube.com/RichardShuProductions"
+        href="https://www.youtube.com/c/RichardShu"
       >
         <FontAwesomeIcon className="icon" icon={faYoutube} />
       </a>
