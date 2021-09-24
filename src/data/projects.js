@@ -12,7 +12,7 @@ export const ProjectsData = [
     name: "Pathfinder Prep",
     description:
       "A website for a tutoring and college consulting organization I co-founded.",
-    github_url: "https://pathfinderpreparation.com/",
+    github_url: "https://pathfinderprep.netlify.app/",
     cName: "card-half-width",
   },
   {
@@ -20,7 +20,7 @@ export const ProjectsData = [
     name: "It's Over Podcast",
     description:
       "A website for a podcast I co-host where we bring on interesting guests to share their stories and grand projects with the world.",
-    github_url: "https://itsoverpod.com/",
+    github_url: "https://itsoverpod.netlify.app/",
     cName: "card-half-width",
   },
   {

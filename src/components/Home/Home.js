@@ -62,7 +62,7 @@ function Home() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://itsoverpod.com/"
+              href="https://itsoverpod.netlify.app/"
             >
               podcast
             </a>
