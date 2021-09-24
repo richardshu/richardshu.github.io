@@ -10,7 +10,7 @@ export const EducationData = [
     description2: "",
   },
   {
-    school: "California State University, Los Angeles",
+    school: "Cal State LA",
     description1: "Early Entrance Program",
     description2: "",
   },
