@@ -33,8 +33,8 @@ function Home() {
               href="https://www.uschess.org/msa/MbrDtlMain.php?14612952"
             >
               chess
-            </a>
-            , making{" "}
+            </a>{" "}
+            and tennis, making{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
