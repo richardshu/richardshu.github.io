@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.18b4ab8d.chunk.css",
-    "main.js": "/static/js/main.c8b982dd.chunk.js",
-    "main.js.map": "/static/js/main.c8b982dd.chunk.js.map",
+    "main.js": "/static/js/main.798bd144.chunk.js",
+    "main.js.map": "/static/js/main.798bd144.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7268ce04.js",
     "runtime-main.js.map": "/static/js/runtime-main.7268ce04.js.map",
     "static/css/2.1f208231.chunk.css": "/static/css/2.1f208231.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/monster-hunter.png": "/static/media/monster-hunter.9e5e2b89.png",
     "static/media/pathfinder-prep.png": "/static/media/pathfinder-prep.1283c19e.png",
     "static/media/pomodoro-for-a-better-world.png": "/static/media/pomodoro-for-a-better-world.d76f79b7.png",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.f4375e1d.jpg",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.cee5b4d3.jpg",
     "static/media/red-black-tree.png": "/static/media/red-black-tree.a90c6c95.png",
     "static/media/simplifai.png": "/static/media/simplifai.e6a1a52a.png",
     "static/media/slang.png": "/static/media/slang.d9681df9.png",
@@ -33,6 +33,6 @@
     "static/css/2.1f208231.chunk.css",
     "static/js/2.ad1cc0ba.chunk.js",
     "static/css/main.18b4ab8d.chunk.css",
-    "static/js/main.c8b982dd.chunk.js"
+    "static/js/main.798bd144.chunk.js"
   ]
 }
