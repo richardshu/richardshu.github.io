@@ -13,28 +13,29 @@ function Home() {
           <h1 className="greeting">Hi, I'm Richard.</h1>
 
           <p>
-            I'm a software engineer at Roblox based in LA. Previously, I wrote
-            code at JPMorgan, taught Data Structures and Algorithms at NYU, and
-            helped organize the 2019 and 2020 cycles of HackNYU.
+            I'm a software engineer at Google in the Bay Area. Previously, I
+            wrote code at Roblox and JPMorgan, taught Data Structures and
+            Algorithms at NYU, and helped organize the 2019 and 2020 cycles of
+            HackNYU.
           </p>
 
           <p>
-            Originally from Diamond Bar, California, I entered college at the
-            tender age of 14 through Cal State LA's Early Entrance Program. I
-            then transferred to NYU and spent my senior fall abroad in Shanghai
-            studying calligraphy and dance.
+            Originally from Diamond Bar, California, I went to college at 14
+            through Cal State LA's Early Entrance Program. I then transferred to
+            NYU and spent my senior fall abroad in Shanghai studying calligraphy
+            and dance.
           </p>
 
           <p>
-            I have a diverse repertoire of interests that include playing{" "}
+            In my free time, I like to play tennis, golf, and{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.uschess.org/msa/MbrDtlMain.php?14612952"
             >
               chess
-            </a>{" "}
-            and tennis, making{" "}
+            </a>
+            , and I also enjoy thrifting. When I'm feeling creative, I make{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -42,7 +43,7 @@ function Home() {
             >
               YouTube
             </a>{" "}
-            videos, writing on{" "}
+            videos, write on{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -58,15 +59,7 @@ function Home() {
             >
               Medium
             </a>
-            , and hosting a{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://itsoverpod.netlify.app/"
-            >
-              podcast
-            </a>
-            . I also love absorbing nature through hiking and{" "}
+            , and post my{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -78,8 +71,8 @@ function Home() {
           </p>
 
           <p>
-            If you ever want to reach me, my inbox is always open at richardjshu
-            (at) gmail (dot) com. Please don't hesitate to get in touch.
+            If you ever want to reach me, feel free to shoot me an email at
+            richardjshu [at] gmail [dot] com.
           </p>
         </div>
       </div>

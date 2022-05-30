@@ -1,5 +1,9 @@
 export const ExperienceData = [
   {
+    company: "Google",
+    title: "Software Engineer",
+  },
+  {
     company: "Roblox",
     title: "Software Engineer",
   },
