@@ -35,7 +35,7 @@ function Home() {
             >
               chess
             </a>
-            , and I also enjoy thrifting. When I'm feeling creative, I make{" "}
+            . I also like to thrift. When I'm feeling creative, I make{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
